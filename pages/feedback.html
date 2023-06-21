@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main/feedback.css">
+    <title>Оставить отзыв</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="burger">
+                    <span></span><span></span><span></span>
+                </div>
+                <a href="../index.html" class="logo">
+                    <img src="../imgs/logo.png" alt="logo" class="logo_img">
+                </a>
+            
+                <nav class="menu">
+                    <ul class="ul_menu">
+                        <li><a href="../index.html"> Главная</a></li>
+                        <li><a href="catalog.html">Каталог</a> </li>
+                        <li> <a href="stocks.html">Акции</a> </li>
+                        <li> <a href="aboutus.html">О нас</a> </li>
+                        <li> <a href="contacts.html">Контакты</a> </li>
+                        <li class="active">Оставить отзыв</li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="top_form">
+            <h1 class="top_form_text">Обратная связь</h1>
+            <h2 class="form_text">Пожалуйста оставьте отзыв.</h2>
+        </div>
+        
+        <div class="form_cont" id="fd">
+            <form action="" class="form">
+                <div class="feed">
+                    <p class="feed_text">Поставить оценку:</p>
+                </div>
+                <div class="radius">
+                    <div class="s"><input type="radio" name="selection" id="radios1"> <span>Плохо</span> </div>
+                    <div class="s"><input type="radio" name="selection" id="radios2"> <span>Хорошо</span></div>
+                    <div class="s"><input type="radio" name="selection" id="radios3"> <span>Отлично</span></div>
+                </div>
+
+                <div class="inputs_boss_xD">
+                    <div class="inputs">
+                        <label>ФИО</label>
+                        <input type="text" class="input" required placeholder="Введите ФИО"  class="inp">
+                        <label>Почта</label>
+                        <input type="email" class="input" required placeholder="Введите email" >
+                    </div>
+                    <div class="inputs">
+                        <label>Ваш возраст</label>
+                        <input type="number" class="input" required placeholder="Введите возраст" >
+                        <label>Номер телефона</label>
+                        <input type="number" class="input" required placeholder="+7 928 282 82 82" >
+                    </div>
+                </div>
+                <div class="area">
+                    <label >Комментарий</label>
+                    <textarea name="area_text" id="area_text" placeholder="Введите сообщение(необязательно)" cols="70" rows="20"></textarea>
+                </div>
+                <button class="button" type="submit" id="bdn">Отправить</button>
+            </form>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <p>© Все права защищены 2023</p>
+                <div class="social">
+                    <div class="social-cont">
+                        <p>Social</p>
+                        <a href="https://ok.ru/"><img src="../imgs/odnoklassniki.png" alt="odnoklassniki"></a>
+                        <a href="https://vk.com/"><img src="../imgs/vk.png" alt="vk"></a>
+                        <a href="https://www.youtube.com/"><img src="../imgs/youtube.png" alt="youtube"></a>
+                        <a href="https://web.telegram.org/"><img src="../imgs/telegram.png" alt="telegram"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="../script/script.js" defer></script>
+</body>
+</html>
